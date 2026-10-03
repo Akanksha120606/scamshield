@@ -1,0 +1,51 @@
+﻿#,category,is_scam,rules_flagged,hybrid_flagged,verdict,score,message
+1,bank_kyc,1,True,True,Dangerous,95,"Dear customer, your SBI account will be blocked today. Update your KYC immediately: http://sbi-kyc-update.xyz/login"
+2,bank_kyc,1,True,True,Dangerous,90,HDFC Bank: Your PAN is not updated. Account will be suspended in 24 hours. Click http://hdfc-pan-verify.top to update now.
+3,bank_kyc,1,False,True,Dangerous,71,Your Aadhaar is not linked to your bank account. Link now to avoid deactivation: bit.ly/aadhaar-link-now
+4,upi_fraud,1,True,True,Dangerous,85,"Sir, to receive Rs 4500 refund please approve the collect request on your PhonePe and enter your UPI PIN."
+5,lottery,1,True,True,Dangerous,81,"Congratulations! You have won Rs 25,00,000 in the KBC lucky draw. Call 98XXXXXXXX and pay Rs 5000 processing fee to claim your prize."
+6,job_scam,1,True,True,Dangerous,81,Part-time job: Like YouTube videos and earn Rs 3000 daily. Join our Telegram group: https://t.me/earnfast99 Registration fee Rs 300 refundable.
+7,job_scam,1,False,True,Dangerous,72,Task based work from home. Complete 3 simple tasks and get Rs 800 instantly. WhatsApp us now: wa.me/9199XXXXXXXX
+8,parcel,1,True,True,Dangerous,96,Your parcel is held at customs. Pay Rs 49 clearance fee within 2 hours or it will be returned: http://indiapost-track.top/pay
+9,parcel,1,False,True,Dangerous,76,FedEx: Your package could not be delivered due to an incomplete address. Update details here: https://fedex-redelivery.click/update
+10,digital_arrest,1,False,True,Dangerous,81,This is Cyber Crime Department. A parcel in your name contains illegal items. You are under digital arrest. Do not disconnect this video call and transfer the verification amount.
+11,digital_arrest,1,True,True,Dangerous,82,TRAI notice: Your SIM will be blocked in 2 hours due to illegal activity. Press 1 to speak to an officer.
+12,utility,1,False,True,Dangerous,76,"Dear consumer, your electricity will be disconnected tonight at 9:30 PM as your previous bill is unpaid. Call our officer immediately: 98XXXXXXXX"
+13,investment,1,True,True,Dangerous,79,"Join our VIP stock tips group. Guaranteed returns 40% weekly, double your money in 30 days! https://bit.ly/vip-trading-group"
+14,loan_app,1,True,True,Dangerous,81,"Instant loan approved Rs 50,000 without documents. Download the app and pay a processing fee Rs 999 to receive money: http://quickloan-india.shop"
+15,reward,1,True,True,Dangerous,95,"ICICI Credit Card: Your reward points worth Rs 8,540 will expire today! Redeem now: http://icici-rewards-claim.xyz"
+16,tax_refund,1,False,True,Dangerous,76,"Income Tax Department: You are eligible for a refund of Rs 15,490. Submit your bank details at http://incometax-refund.online"
+17,impersonation,1,False,True,Dangerous,71,"Hi Mom, I lost my phone, this is my new number. Please send Rs 20,000 urgently to this account, I will explain later."
+18,upi_fraud,1,True,True,Dangerous,85,"Scan this QR code to receive your payment of Rs 6,000. Enter your UPI PIN to accept."
+19,impersonation,1,True,True,Dangerous,82,"Amazon: Your order of iPhone 15 is confirmed for Rs 1,19,900. If you did not order this, call our support immediately at 1800XXXXXXX to cancel and share your OTP."
+20,bank_kyc,1,True,True,Dangerous,86,FASTag KYC expired. Your FASTag will be blocked today. Update now: http://fastag-kyc-update.icu
+21,hindi_scam,1,True,True,Dangerous,98,आपका बैंक खाता बंद हो जाएगा। तुरंत KYC अपडेट करें और OTP शेयर करें: http://sbi-kyc-update.xyz
+22,hindi_scam,1,False,True,Dangerous,71,बधाई हो! आपने 25 लाख रुपये की लॉटरी जीती है। इनाम पाने के लिए अभी कॉल करें और प्रोसेसिंग फीस जमा करें।
+23,hinglish_scam,1,False,True,Dangerous,76,"Bhai ghar baithe paise kamao, daily 2000 rupay. Sirf video like karna hai. Pehle 500 registration fee bhejo, wapas mil jayegi."
+24,bank_kyc,1,False,True,Dangerous,76,Your gas connection subsidy is pending. Verify your Aadhaar and bank details now at http://lpg-subsidy-gov.top else subsidy will stop.
+25,personal,0,False,False,Safe,0,"Hey, are we still meeting for lunch at 1 pm tomorrow?"
+26,personal,0,False,False,Safe,0,Mom: Please bring some milk and bread when you come home.
+27,personal,0,False,False,Safe,0,Happy birthday! Wishing you a wonderful year ahead. Let's catch up this weekend.
+28,legit_otp,0,False,False,Safe,14,HDFC Bank: 482913 is your OTP for login. Do not share it with anyone. Bank staff will never ask for your OTP.
+29,legit_service,0,False,False,Safe,0,Your Zomato order #48291 is on the way and will arrive in 20 minutes.
+30,legit_service,0,False,False,Safe,8,Your Amazon order has been delivered. Track or manage your orders at amazon.in
+31,legit_alert,0,False,False,Safe,8,"Rs 1,250.00 debited from your A/c XX4521 on 02-Oct for UPI/Swiggy. Avl bal Rs 18,430. Not you? Call the number on the back of your card."
+32,legit_alert,0,False,False,Safe,8,"Salary of Rs 52,000 has been credited to your account XX4521 on 01-Oct."
+33,legit_service,0,False,False,Safe,0,"Reminder: Your appointment with Dr. Sharma is tomorrow at 5:30 PM at Sunrise Clinic, Pune."
+34,legit_service,0,False,False,Safe,0,"Your IRCTC ticket is confirmed. PNR 2845XXXXXX, Pune to Delhi, 12 Oct. Wishing you a happy journey."
+35,work,0,False,False,Safe,0,"Team, the project review is moved to 4 PM on Friday. Please share your updates before the meeting."
+36,legit_service,0,False,False,Safe,8,Your electricity bill for September has been paid successfully. Thank you for using the MSEDCL app.
+37,legit_otp,0,False,False,Safe,14,Your Ola ride with Suresh is arriving in 3 minutes. Vehicle MH12 AB 1234. Share OTP 5821 with the driver at pickup.
+38,hindi_legit,0,False,False,Safe,0,"कल शाम 6 बजे मीटिंग है, कृपया समय पर पहुँचें।"
+39,personal,0,False,False,Safe,0,Class notes for Unit 3 are uploaded on the college portal. Exam syllabus is the same as announced.
+40,legit_service,0,False,False,Safe,4,Your Jio recharge of Rs 299 was successful. Validity 28 days. Thank you for choosing Jio.
+41,hard_job,1,False,True,Dangerous,68,"Hi, is this still your number? We saw your CV online and have a remote opening paying Rs 15,000 per week. Reply YES to know more."
+42,hard_otp,1,False,True,Dangerous,71,"Hello sir, this is Rahul from the bank. We noticed a problem with your card. Please read out the 6 digit code you just received so we can fix it."
+43,hard_lookalike,1,False,True,Dangerous,68,Your Netflix payment failed. Update your billing information here to keep watching: netflix-billing-help.com/update
+44,hard_impersonation,1,False,True,Dangerous,78,"Dad I am in trouble at the police station, need Rs 30,000 sent now. Don't call, just send to this UPI and don't tell Mom."
+45,hard_scholarship,1,False,True,Dangerous,71,"You have been shortlisted for a Rs 2 lakh scholarship. Send Rs 1,500 for document verification to confirm your seat."
+46,hard_legit,0,False,False,Safe,12,"URGENT: Production server is down. Please join the incident call immediately, link in the team calendar."
+47,hard_legit,0,False,False,Safe,8,SBI: Your account statement for September is ready. Download it from the official YONO app or visit onlinesbi.sbi
+48,hard_legit,0,False,False,Safe,8,Your Swiggy order is delayed by 15 minutes. We are sorry for the inconvenience and have added Rs 50 credit to your wallet.
+49,hard_legit,0,False,False,Safe,8,"Final reminder: your college fee of Rs 45,000 is due on 10 Oct. Pay at the accounts office or through the official college portal."
+50,hard_legit,0,False,False,Safe,0,"Congratulations on your promotion! Let's celebrate this weekend, dinner on me."
