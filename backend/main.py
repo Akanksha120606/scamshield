@@ -1,9 +1,11 @@
 import base64
 import binascii
+from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from rules import check_rules
@@ -21,6 +23,7 @@ app.add_middleware(
 
 ALLOWED_MIME = {"image/jpeg", "image/png", "image/webp"}
 MAX_IMAGE_BYTES = 4_000_000
+FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
 
 class AnalyzeRequest(BaseModel):
@@ -29,8 +32,8 @@ class AnalyzeRequest(BaseModel):
     image_mime: Optional[str] = None
 
 
-@app.get("/")
-def home():
+@app.get("/health")
+def health():
     return {"message": "ScamShield API is running"}
 
 
@@ -70,9 +73,14 @@ def analyze(req: AnalyzeRequest):
     except Exception as e:
         print("LLM error:", e)
         if image_bytes and not clean_text.strip():
+            busy = any(w in str(e) for w in ("503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED"))
             raise HTTPException(
                 status_code=503,
-                detail="The AI is busy right now and screenshots need it. Please try again in a minute.",
+                detail=(
+                    "The AI is busy or over its free limit right now. Please try again in a minute."
+                    if busy
+                    else "The AI could not process this screenshot: " + str(e)[:150]
+                ),
             )
         llm = {
             "scam_type": "Unknown",
@@ -102,3 +110,8 @@ def analyze(req: AnalyzeRequest):
         "ai_used": ai_used,
         "privacy_hidden": hidden_count,
     }
+
+
+# Serve the web page from the same server. This must stay LAST in the file.
+if FRONTEND_DIR.exists():
+    app.mount("/", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
