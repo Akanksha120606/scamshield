@@ -63,7 +63,7 @@ def analyze_with_llm(text: str, rule_flags: list, image_bytes=None, image_mime=N
 
     last_error = None
     for model in [MODEL] + FALLBACKS:
-        for attempt in range(3):
+        for attempt in range(1):
             try:
                 return _call_model(model, contents)
             except Exception as e:

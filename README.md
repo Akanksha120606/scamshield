@@ -3,6 +3,7 @@
 **AI-powered scam and phishing detection for India.** Paste a suspicious SMS, WhatsApp message or link, or upload a screenshot. ScamShield tells you if it is a scam, explains why in simple language, and shows you what to do next.
 
 **Live demo:** https://scamshield-6hdo.onrender.com  
+**Demo video:** https://drive.google.com/file/d/1j7-NRmukA7CNFlcgonrlsfiiNeGGPedp/view?usp=sharing
  
 **Problem statement:** Digital Safety & Cybersecurity (HackNowa Global Hackathon 2026)
 
@@ -63,7 +64,7 @@ The AI layer catches scams that keyword rules miss, such as impersonation, "repl
 ## Run it locally
 
 ```bash
-git clone YOUR-REPO-URL
+git clone https://github.com/Akanksha120606/scamshield
 cd scamshield/backend
 python -m venv venv
 venv\Scripts\activate            # Windows (use: source venv/bin/activate on Mac/Linux)
@@ -100,4 +101,4 @@ frontend/  Single-page web app served by the backend
 docs/      Screenshots
 ```
 
-Built by YOUR-NAME for the HackNowa Global Hackathon 2026.
+Built by Akanksha Borkar for the HackNowa Global Hackathon 2026.
